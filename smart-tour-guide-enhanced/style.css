@@ -1,0 +1,202 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #eef2f5;
+  color: #333;
+}
+header, footer {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+main {
+  padding: 20px;
+}
+.landmark {
+  margin: 40px auto;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+}
+.landmark.visible {
+  opacity: 1;
+  border-left: 5px solid #007bff;
+}
+.landmark img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.landmark {
+  /* Existing styles for the section */
+  transition: transform 0.3s ease; /* Smooth transition for the effect */
+}
+
+.landmark:hover {
+  transform: scale(1.12); /* Slightly enlarge the section */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  cursor: pointer; /* Change the cursor to a pointer */
+}
+
+.side{
+  background-color: yellow;
+  margin-top:20px;
+  padding: 5px;
+}
+.btn1{
+  cursor: pointer;
+  margin-left: 220px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius:14px;
+  background-color: yellow;
+}
+.btn1:hover{
+  background-color: white;
+}
+.btn2{
+  cursor: pointer;
+  margin-left: 220px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius:14px;
+  background-color: yellow;
+}
+.btn2:hover{
+  background-color: white;
+}
+.btn3{
+  cursor: pointer;
+  margin-left: 220px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius:14px;
+  background-color: yellow;
+}
+.btn3:hover{
+  background-color: white;
+}
+
+.image-swap {
+  position: relative;
+  width: 300px; /* Adjust width */
+  height: 200px; /* Adjust height */
+  overflow: hidden;
+}
+
+.image-swap img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.hover-img {
+  opacity: 0;
+}
+
+.image-swap:hover .hover-img {
+  opacity: 1;
+}
+
+.image-swap:hover .normal-img {
+  opacity: 0;
+}
+
+
+.landmar {
+  margin: 40px auto;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  max-width: 300px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+}
+.landmar.visible {
+  opacity: 1;
+  border-left: 5px solid #007bff;
+}
+.landmar img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.landmar {
+  /* Existing styles for the section */
+  transition: transform 0.3s ease; /* Smooth transition for the effect */
+}
+
+.landmar:hover {
+  transform: scale(1.12); /* Slightly enlarge the section */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  cursor: pointer; /* Change the cursor to a pointer */
+}
+.main{
+  display: flex;
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+.image-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image-swap {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-swap img {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.hover-img {
+  opacity: 0;
+  z-index: 2;
+}
+
+.normal-img {
+  z-index: 1;
+}
+
+.image-swap:hover .hover-img {
+  opacity: 1;
+}
+
+.image-swap:hover .normal-img {
+  opacity: 0;
+}
