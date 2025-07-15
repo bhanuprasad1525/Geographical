@@ -1,4 +1,4 @@
-SMART TOUR GUIDE – TAP INVEST ASSIGNMENT SUBMISSION
+SMART TOUR GUIDE 
 
 Description:
 ------------
@@ -22,4 +22,4 @@ Tech Used:
 - Responsive layout with scroll animation
 - Live feedback using browser APIs
 
-By: [Your Name]
+By: BATHULA BHANU PRASAD
